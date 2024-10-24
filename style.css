@@ -1,0 +1,294 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #f06292;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #555;
+    margin-top: 20px;
+}
+
+/* Navigation Bar */
+nav ul {
+    background-color: #885c6b;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Products Section */
+.products-category {
+    margin: 20px;
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Add horizontal scroll if products exceed screen width */
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    margin-right: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product p {
+    font-size: 18px;
+    color: #333;
+}
+
+button {
+    background-color: #100f10;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff80ab;
+}
+
+/* Cart Section */
+.cart {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart table th, .cart table td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.cart table th {
+    background-color: #f06292;
+    color: white;
+}
+
+.cart table td {
+    font-size: 16px;
+}
+
+.cart h3 {
+    margin-top: 20px;
+}
+
+.cart button {
+    margin-top: 20px;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-section {
+    padding: 20px; /* Add padding around the section */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    margin: 20px; /* Space around the section */
+}
+
+/* Heading styles */
+.contact-section h2 {
+    font-size: 2.5em; /* Large heading size */
+    margin-bottom: 10px; /* Space below heading */
+    color: #333; /* Dark color for headings */
+}
+
+.contact-section h3 {
+    font-size: 1.8em; /* Slightly smaller headings */
+    margin-top: 20px; /* Space above subsections */
+    margin-bottom: 10px; /* Space below subsections */
+}
+
+/* Paragraph styles */
+.contact-section p {
+    font-size: 1em; /* Normal font size for text */
+    color: #666; /* Medium gray color */
+}
+
+/* Contact form styles */
+.contact-form {
+    margin-top: 20px; /* Space above form */
+}
+
+.contact-form label {
+    display: block; /* Block display for labels */
+    margin: 10px 0 5px; /* Space around labels */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below inputs */
+}
+
+.contact-form button {
+    background-color: #007BFF; /* Primary button color */
+    color: white; /* White text on button */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1em; /* Button text size */
+}
+
+.contact-form button:hover {
+    background-color: #0056b3; /* Darker button on hover */
+}
+
+/* Social media links */
+.social-media {
+    margin-top: 20px; /* Space above social media links */
+}
+
+.social-media a {
+    color: #007BFF; /* Link color */
+}
+
+.social-media a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* FAQ styles */
+.faqs {
+    margin-top: 20px; /* Space above FAQs */
+}
+
+.faqs strong {
+    display: block; /* Block display for FAQ questions */
+    margin: 10px 0; /* Space around questions */
+    color: #333; /* Dark color for questions */
+}
+
+/* styles.css */
+
+/* Basic reset for margins and padding */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Example font family */
+}
+
+/* Header styling */
+header {
+    background-color: #641b4b; /* Header background color */
+    color: white; /* Header text color */
+    padding: 20px; /* Padding for header */
+    text-align: center; /* Centered text */
+}
+
+header nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+header nav ul li {
+    display: inline; /* Inline list items */
+    margin: 0 15px; /* Space between links */
+}
+
+header nav ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Main section styling */
+main {
+    padding: 20px; /* Padding for main section */
+}
+
+/* About section styling */
+.about-section {
+    padding: 20px; /* Padding for the about section */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    margin: 20px; /* Space around the section */
+}
+
+.about-section h2 {
+    font-size: 2.5em; /* Large heading size */
+    margin-bottom: 10px; /* Space below heading */
+    color: #333; /* Dark color for headings */
+}
+
+.about-section h3 {
+    font-size: 1.8em; /* Slightly smaller headings */
+    margin-top: 20px; /* Space above subsections */
+    margin-bottom: 10px; /* Space below subsections */
+}
+
+.about-section p {
+    font-size: 1em; /* Normal font size for text */
+    color: #666; /* Medium gray color */
+}
+
+.about-section ul {
+    margin: 10px 0; /* Space above and below lists */
+    padding-left: 20px; /* Indent for list items */
+}
+
+.about-section ul li {
+    margin-bottom: 10px; /* Space below list items */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333; /* Footer background color */
+    color: white; /* Footer text color */
+    text-align: center; /* Centered text */
+    padding: 10px; /* Padding for footer */
+}

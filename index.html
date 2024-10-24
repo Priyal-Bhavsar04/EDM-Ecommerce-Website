@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetics E-Commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- Navigation Panel -->
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showHome()">Home</a></li>
+            <li><a href="cart.html" onclick="showCart()">Go to Cart</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+            <img src="images\logo.png" alt="Your Logo" class="logo">
+        <h1>Welcome to Glamour Cosmetics</h1>
+    </header>
+
+    <!-- Home Page: Products Section -->
+
+     <!-- Lipstick Category -->
+     <section class="products-category">
+        <h2>Lipsticks</h2>
+        <div class="category">
+            <div class="product">
+                <img src="images/lipstick1.jpg" alt="Lipstick 1">
+                <p>Lipstick 1 ($10)</p>
+                <button onclick="addItemToCart('Lipstick 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/lipstick2.jpg" alt="Lipstick 2">
+                <p>Lipstick 2 ($12)</p>
+                <button onclick="addItemToCart('Lipstick 2', 12)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/lipstick3.jpg" alt="Lipstick 3">
+                <p>Lipstick 3 ($15)</p>
+                <button onclick="addItemToCart('Lipstick 3', 15)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/lipstick4.jpg" alt="Lipstick 4">
+                <p>Lipstick 4 ($18)</p>
+                <button onclick="addItemToCart('Lipstick 4', 18)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/lipstick5.jpg" alt="Lipstick 5">
+                <p>Lipstick 5 ($20)</p>
+                <button onclick="addItemToCart('Lipstick 5', 20)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mascara Category -->
+    <section class="products-category">
+        <h2>Mascaras</h2>
+        <div class="category">
+            <div class="product">
+                <img src="images/mascara1.jpg" alt="Mascara 1">
+                <p>Mascara 1 ($15)</p>
+                <button onclick="addItemToCart('Mascara 1', 15)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/mascara2.jpg" alt="Mascara 2">
+                <p>Mascara 2 ($18)</p>
+                <button onclick="addItemToCart('Mascara 2', 18)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/mascara3.jpg" alt="Mascara 3">
+                <p>Mascara 3 ($20)</p>
+                <button onclick="addItemToCart('Mascara 3', 20)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/mascara4.jpg" alt="Mascara 4">
+                <p>Mascara 4 ($22)</p>
+                <button onclick="addItemToCart('Mascara 4', 22)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/mascara5.jpg" alt="Mascara 5">
+                <p>Mascara 5 ($25)</p>
+                <button onclick="addItemToCart('Mascara 5', 25)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Foundation Category -->
+    <section class="products-category">
+        <h2>Foundations</h2>
+        <div class="category">
+            <div class="product">
+                <img src="images/foundation1.jpg" alt="Foundation 1">
+                <p>Foundation 1 ($25)</p>
+                <button onclick="addItemToCart('Foundation 1', 25)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/foundation2.jpg" alt="Foundation 2">
+                <p>Foundation 2 ($28)</p>
+                <button onclick="addItemToCart('Foundation 2', 28)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/foundation3.jpg" alt="Foundation 3">
+                <p>Foundation 3 ($30)</p>
+                <button onclick="addItemToCart('Foundation 3', 30)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/foundation4.jpg" alt="Foundation 4">
+                <p>Foundation 4 ($32)</p>
+                <button onclick="addItemToCart('Foundation 4', 32)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/foundation5.jpg" alt="Foundation 5">
+                <p>Foundation 5 ($35)</p>
+                <button onclick="addItemToCart('Foundation 5', 35)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eyeshadow Category -->
+    <section class="products-category">
+        <h2>Eyeshadows</h2>
+        <div class="category">
+            <div class="product">
+                <img src="images/eyeshadow1.jpg" alt="Eyeshadow 1">
+                <p>Eyeshadow 1 ($12)</p>
+                <button onclick="addItemToCart('Eyeshadow 1', 12)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/eyeshadow2.jpg" alt="Eyeshadow 2">
+                <p>Eyeshadow 2 ($14)</p>
+                <button onclick="addItemToCart('Eyeshadow 2', 14)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/eyeshadow3.jpg" alt="Eyeshadow 3">
+                <p>Eyeshadow 3 ($16)</p>
+                <button onclick="addItemToCart('Eyeshadow 3', 16)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/eyeshadow4.jpg" alt="Eyeshadow 4">
+                <p>Eyeshadow 4 ($18)</p>
+                <button onclick="addItemToCart('Eyeshadow 4', 18)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/eyeshadow5.jpg" alt="Eyeshadow 5">
+                <p>Eyeshadow 5 ($20)</p>
+                <button onclick="addItemToCart('Eyeshadow 5', 20)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+     <!-- Blush Category -->
+     <section class="products-category">
+        <h2>Blushes</h2>
+        <div class="category">
+            <div class="product">
+                <img src="images/blush1.jpg" alt="Blush 1">
+                <p>Eyeshadow 1 ($12)</p>
+                <button onclick="addItemToCart('Blush 1', 12)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/blush2.jpg" alt="Blush 2">
+                <p>Eyeshadow 2 ($14)</p>
+                <button onclick="addItemToCart('Blush 2', 14)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/blush3.jpg" alt="Blush 3">
+                <p>Eyeshadow 3 ($16)</p>
+                <button onclick="addItemToCart('Blush 3', 16)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/blush4.jpg" alt="Blush 4">
+                <p>Eyeshadow 4 ($18)</p>
+                <button onclick="addItemToCart('Blush 4', 18)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/blush5.jpg" alt="Blush 5">
+                <p>Eyeshadow 5 ($20)</p>
+                <button onclick="addItemToCart('Eyeshadow 5', 20)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Cart Page -->
+    <section class="cart" id="cart" style="display: none;">
+        <h2>Your Cart</h2>
+        <table id="cart-items-table">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </tbody>
+        </table>
+        <h3>Total: $<span id="total-price">0</span></h3>
+
+        <!-- Checkout Button -->
+        <button onclick="proceedToCheckout()">Checkout</button>
+        <button onclick="showHome()">Continue Shopping</button>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact" class="contact-section">
+        <h2>Get in Touch with Us</h2>
+        <p>We’d love to hear from you! Reach out for any inquiries, feedback, or support.</p>
+        
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p><strong>Email:</strong> <a href="mailto:support@example.com">support@example.com</a></p>
+            <p><strong>For orders:</strong> <a href="mailto:orders@example.com">orders@example.com</a></p>
+            <p><strong>Phone:</strong> +1 (234) 567-8900</p>
+            <p><strong>Business Hours:</strong> Monday to Friday, 9 AM - 6 PM (EST)</p>
+        </div>
+
+        <div class="contact-form">
+            <h3>Contact Us</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <div class="physical-address">
+            <h3>Visit Us</h3>
+            <p>123 Beauty Lane, Cosmetic City, CA 90210</p>
+        </div>
+
+        <div class="social-media">
+            <h3>Connect with Us:</h3>
+            <p>Facebook: <a href="https://facebook.com/yourbrand">facebook.com/yourbrand</a></p>
+            <p>Instagram: <a href="https://instagram.com/yourbrand">instagram.com/yourbrand</a></p>
+            <p>Twitter: <a href="https://twitter.com/yourbrand">twitter.com/yourbrand</a></p>
+            <p>Pinterest: <a href="https://pinterest.com/yourbrand">pinterest.com/yourbrand</a></p>
+        </div>
+
+        <div class="faqs">
+            <h3>Frequently Asked Questions</h3>
+            <p><strong>How can I track my order?</strong></p>
+            <p>After placing your order, you will receive a tracking link via email.</p>
+            
+            <p><strong>What is your return policy?</strong></p>
+            <p>You can return unopened products within 30 days of purchase.</p>
+            
+            <p><strong>Do you offer international shipping?</strong></p>
+            <p>Yes, we ship to various international locations. Check our shipping policy for details.</p>
+        </div>
+    </section>
+
+ 
+    <script src="cart.js"></script>
+</body>
+</html>
